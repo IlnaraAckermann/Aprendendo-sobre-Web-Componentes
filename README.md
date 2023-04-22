@@ -28,3 +28,17 @@ JavaScript é uma linguagem de programação de alto nível. Ela é utilizada pr
 
 
 ### <img src="./src/img/codificacao.png" alt="HTML+CSS+JS icon By justicon" height="50px"> **O que são Web Elements?**
+
+A **DOM (Document Object Model )** é uma estrutura em formato de árvore que os navegadores utilizam para representar as páginas em HMTL na web.
+
+<img src="./src/img/Estrutura-DOM.png" alt="HTML+CSS+JS icon By justicon" width="350px">
+
+Mesmo a DOM sendo muito parecida com o nosso código ela não é a mesma coisa. 
+
+O **Shadow DOM** é uma tecnologia do <u>navegador</u> com a qual podemos criar componentes sem influenciar os demais elementos a sua volta.
+
+O Shadow DOM nos permite criar elementos que possuem estrutura, estilo e comportamento encapsulados. 
+
+**Virtual DOM (VDOM)**. Ele é uma representação do DOM mantida em memória. Assim, quando precisamos fazer alguma alteração, ela é feita no Virtual DOM, que é bem mais rápido que o DOM. Com isso ele analisa todos os lugares que serão afetados e sincroniza com o DOM em um processo chamado Reconciliação. A vantagem disso é que essa análise permite que haja o menor número possível de acessos ao DOM, melhorando muito a performance das aplicações.
+
+Lembrando que o Virtual DOM não é algo do navegador, e sim, um conceito implementado por <u>bibliotecas</u> como o React.

@@ -58,6 +58,7 @@ class CardNews extends HTMLElement {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         justify-content: space-between;
         margin: 20px auto;
+        
 
     }
     

@@ -1,3 +1,9 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+a {
+    text-decoration: none; color: #000;
+}
+
 .card {
     width: 80%;
     
@@ -8,7 +14,7 @@
     display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 32px auto;
 
 }
 
@@ -19,23 +25,23 @@
     padding: 0.5rem;
 }
 
-.card_left a {
+a {
     margin: 1rem 0 0.2rem;
     font-size: 1.5rem;
     font-weight: 700;
     transition: 0.3s ease-in-out;
 }
 
-.card_left a:hover{
+a:hover{
     font-weight: 900;
 }
 
-.card_left span {
+span {
     font-size: 0.75rem;
     font-weight: 700;
     color: #606060;
 }
-.card_left p {
+p {
     color: #606060;
 }
 

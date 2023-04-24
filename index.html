@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/card.css">
     <script src="./src/components/CardNews.js" defer></script>
     <title>DuoDalu News</title>
 </head>
@@ -16,40 +15,24 @@
 
     <div class="container">
 
-        <div class="card">
+        <card-news></card-news>
+        <card-news autor="Ilnara Ackermann" titulo="Its not a normal Lorem Ipsum?" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente repellendus eum velit
+        perferendis id officia perspiciatis ducimus recusandae maiores voluptatibus, totam ratione eius.
+        Doloremque ex recusandae quia omnis exercitationem!" img-src="./src/img/cover3.jpg"
+            img-alt="descrição"></card-news>
+        <card-news autor="Ilnara Ackermann" titulo="That is a Lorem Ipsum" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente repellendus eum velit
+        perferendis id officia perspiciatis ducimus recusandae maiores voluptatibus, totam ratione eius.
+        Doloremque ex recusandae quia omnis exercitationem!" img-src="./src/img/cover4.jpg"
+            img-alt="descrição"></card-news>
 
-            <div class="card_left">
-                <span>
-                    Ilnara Ackermann
-                </span>
-
-                <a href="#">
-                    Titulo
-                </a>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente repellendus eum velit
-                    perferendis id officia perspiciatis ducimus recusandae maiores voluptatibus, totam ratione eius.
-                    Doloremque ex recusandae quia omnis exercitationem!</p>
-            </div>
-
-            <div class="card_right">
-                
-                <img src="./src/img/cover.jpg" alt="" srcset="">
-                
-            </div>
-            
-        </div>
-        
-        <card-news></card-news>  
-          
-          <card-news 
-          autor="eu"
-          titulo="meu titulo"
-          texto="meu conteudo"
-          img-src = "./src/img/cover2.jpg"
-          img-alt = "descrição"
-          ></card-news>  
+        <card-news autor="Ilnara Ackermann" titulo="Why Lorem Ipsum?" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente repellendus eum velit
+          perferendis id officia perspiciatis ducimus recusandae maiores voluptatibus, totam ratione eius.
+          Doloremque ex recusandae quia omnis exercitationem!" img-src="./src/img/cover2.jpg"
+            img-alt="descrição"></card-news>
     </div>
+
+
+
 
 </body>
 
